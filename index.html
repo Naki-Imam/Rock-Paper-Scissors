@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="head"><h1>Rock paper scissors</h1><div id="result"></div></div>
+      <div id="area">
+        <div id="play-user">
+          <!-- <img src="\paper.png" alt="" id="user-paper" class="image" /> -->
+          <!-- <img src="\rock.png" alt="" id="user-rock" class="image" /> -->
+          <img src="\scissors.png" alt="" id="user-scissors" class="image" />
+        </div>
+        <div id="play-comp">
+          <!-- <img src="\paper.png" alt="" id="comp-paper" class="image" /> -->
+          <img
+            src="\rock.png"
+            alt=""
+            id="comp-rock"
+            style="position: absolute; left: 20%"
+            class="image"
+          />
+          <!-- <img src="\scissors.png" alt="" id="comp-scissors" class="image" /> -->
+        </div>
+      </div>
+      <div id="score-board">
+        <div id="comp">
+          <div class="score" id="comp-score">0</div>
+          <div class="name">Comp</div>
+        </div>
+        <div id="user">
+          <div class="score" id="user-score">0</div>
+          <div class="name">User</div>
+        </div>
+      </div>
+      <div id="choice">
+        <button id="rock" class="button"><img src="\rock.png" alt="" /></button>
+        <button id="paper" class="button">
+          <img src="\paper.png" alt="" />
+        </button>
+        <button id="scissors" class="button">
+          <img
+            src="\scissors.png
+                "
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
